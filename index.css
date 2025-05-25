@@ -1,0 +1,26 @@
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.cart-item-enter {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+.cart-item-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 300ms ease-in;
+}
+.cart-panel {
+    transition: transform 0.3s ease-in-out;
+}
+.cart-panel.hidden {
+    transform: translateX(100%);
+}
+.div a{
+    font-size: large;
+    text-decoration: none;
+    color: blue;
+
+}
+.div{   margin-top: 20px;}
